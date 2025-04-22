@@ -31,3 +31,13 @@ Using weekly EDDM spend from the USPS and weekly sales data from our POS system,
 
 ### Validation:
 I compared my learned parameters (`w`, `b`) to those returned by `scikit-learn.LinearRegression`, and they were **nearly identical**. This confirmed that my implementation was mathematically correct.
+
+## Visuals
+| Title | Description |
+|-------|-------------|
+| ![Sales Vs EDDMs Sent](scatterplotforsalesvseddms.png) | Raw data: weekly EDDM spend vs sales |
+| ![Learning Curve](learningcurve.png) | Cost function over gradient descent iterations |
+| ![Effects of 10K EDDMs a Week](eddm10kspend.png) | Predicted sales across increasing EDDM spend |
+| ![Regression Line Fit](LinearRegression.png) | Final line fit through the data |
+
+
